@@ -1,0 +1,10 @@
+.env
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.sqlite
+*.log
+.DS_Store
+.openai/*.local.*

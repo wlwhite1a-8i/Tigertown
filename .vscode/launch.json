@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Tiger Town: Run Python website",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/server.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env",
+      "env": { "PYTHONUNBUFFERED": "1" },
+      "justMyCode": true
+    }
+  ]
+}
